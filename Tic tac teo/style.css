@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+   width: 18vmin;
+   height: 18vmin;
+   font-size: 40px;
+   color: brown;
+   background-color: bisque;
+}
+#reset{
+    width: 10vmin;
+   height: 10vmin;
+   font-size: 20px;
+   border-radius: 10px;
+}
